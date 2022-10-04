@@ -1,0 +1,80 @@
+body {
+    border-style: dotted;
+    border-color: blue;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;   
+}
+
+
+.valuefont{
+    font-size: 0.8rem;
+    color: red;
+} 
+.columnheader {
+    height: 9%;
+    width: 33.33%;
+    float: top;
+    color: black;
+    text-align: center;
+    padding-top : -40px;
+}
+
+.columnheader1 {
+    height: 9%;
+    width: 33.33%;
+    float: right;
+    color: black;
+    text-align: center;
+    padding-top: -40px;
+}
+
+.columnheader2 {
+    height: 9%;
+    width: 33.33%;
+    float: left;
+    color: black;
+    text-align: center;
+    padding-top: -65px;
+}
+
+.body1{
+    width: 33.33%;
+    float: right;
+    color: black;
+    text-align: right;
+}
+ .body2{
+    width: 33.33%;
+    float: left;
+    color: black;
+    text-align: right;
+ }
+.columnsfooter1 {
+    width: 33.33%;
+    float: right;
+    color: black;
+    text-align: center;
+    bottom: 10%;
+    right: 0%;
+    position: fixed;
+}
+
+.columnsfooter2 {
+    width: 33.33%;
+    float: left;
+    color: black;
+    text-align: center;
+    bottom: 10%;
+    left: 0%;
+    position: fixed;
+}
+
+.columnsfooter3 {
+    width: 100%;
+    float: left;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    bottom: -35;
+    position: fixed;
+}
